@@ -36,9 +36,9 @@ $date1=date("D, d M Y H:i:s", strtotime($details['date']));
     
     
     if ($block == "left")
-        $link = "<a href='./themes/NB-TT-2c/blockswitcher.php?switch=right'><img src='/themes/NB-TT-2c/images/tool.png' border='0'></a>";
+        $link = "<a href='./themes/default/blockswitcher.php?switch=right'><img src='/themes/default/images/tool.png' border='0'></a>";
     else
-        $link = "<a href='./themes/NB-TT-2c/blockswitcher.php?switch=left'><img src='/themes/NB-TT-2c/images/stats.png' border='0'></a>"; 
+        $link = "<a href='./themes/default/blockswitcher.php?switch=left'><img src='/themes/default/images/stats.png' border='0'></a>"; 
     ?>
             </td>
             <!-- END RIGHT COLUMN -->

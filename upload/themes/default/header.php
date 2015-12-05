@@ -22,7 +22,8 @@
 <!--[if lte IE 6]>
     <script type="text/javascript" src="<?php echo $site_config["SITEURL"]; ?>/themes/default/js/pngfix/supersleight-min.js"></script>
 <![endif]-->
-<script src="http://code.jquery.com/jquery-2.1.0.min.js" type="text/javascript"></script>
+<script src="//code.jquery.com/jquery-2.1.0.min.js" type="text/javascript"></script>
+<script src="../jquery.js" type="text/javascript"></script>
 </head>
 <?php
 	$page = $_SERVER['REQUEST_URI'];
